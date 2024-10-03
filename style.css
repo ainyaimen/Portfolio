@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 375px;
+  height: 48px;
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 94px;
+  height: 44px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+}
+
+.menu {
+  width: 40px;
+  height: 40px;
+  top: 4px;
+  left: 311px;
+  padding: 8px;
+  padding-right: 10px;
+}
+
+.main-section {
+  width: 375px;
+  height: 590px;
+  top: 92px;
+  padding: 120px 24px;
+  background: #1c1a19;
+}
+
+.primary-text {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  text-align: left;
+  color: #ff6b00;
+  margin-bottom: 1px;
+  margin-left: 0;
+  margin-top: 1px;
+}
+
+.supporting-text {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', serif;
+  color: #fff5e1;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+
+.description {
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.illustration {
+  width: 406.36px;
+  height: 311.71px;
+  left: 392.1px;
+  rotate: -164.51 deg;
+}
+
+.icons {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  justify-content: baseline;
+}
+
+.disabled {
+  width: 30px;
+  height: 30px;
+  padding: 5px 4px 0;
+}
+
+.angelist {
+  width: 24px;
+  height: 24px;
+  padding: 2px 4px 0;
+}
+
+.linkedin {
+  width: 24px;
+  height: 24px;
+  padding: 2px 4px 0;
+}
+
+.twitter {
+  width: 24px;
+  height: 24px;
+  padding: 2px 4px 0;
+}
+
+.medium {
+  width: 24px;
+  height: 24px;
+  padding: 2px 4px 0;
+}
