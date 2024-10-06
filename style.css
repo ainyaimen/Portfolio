@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 .header {
@@ -118,14 +119,14 @@
   padding: 2px 4px 0;
 }
 
-.works {
+.works-section {
   width: 375px;
   height: 3, 455px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.works h2 {
+.works-section h2 {
   text-align: center;
   font-family: 'Crete Round', serif;
   font-size: 40px;
@@ -134,10 +135,11 @@
   height: 83px;
 }
 
-.works hr {
+.works-section hr {
   width: 327px;
   border: 1px solid #212121;
   margin-bottom: 80px;
+  margin-left: 24px;
 }
 
 .cards {
@@ -192,6 +194,7 @@
   list-style-type: none;
   padding: 0;
   margin-top: 10px;
+  margin-bottom: 18px;
   justify-content: space-between;
 }
 
@@ -206,9 +209,10 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  gap: 12px;
 }
 
-.project-button {
+.button {
   font-family: 'Inter', serif;
   font-size: 17px;
   font-weight: 700;
@@ -222,7 +226,7 @@
   width: 327px;
 }
 
-.card1 .project-button {
+.card1 .button {
   width: 124px;
   margin-right: 203px;
 }
@@ -280,10 +284,115 @@
   padding-left: 12px;
 }
 
+.skills-section li {
+  padding-bottom: 20px;
+}
+
+.skill-list li {
+  padding: 12px 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 42.67px;
+}
+
 .card2-onward .tags li {
   margin-right: 12px;
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
   border: none;
+}
+
+.about-section {
+  background-color: #1c1a19;
+  width: 375px;
+  top: 92px;
+  padding: 120px 24px;
+  height: 1907px;
+  padding-bottom: 0;
+}
+
+.about-text {
+  font-family: 'Crete Round', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #ff6b00;
+  margin-bottom: 15px;
+}
+
+.about-section .description {
+  font-family: 'Inter', serif;
+}
+
+.about-section .button {
+  width: 156px;
+  margin-right: 203px;
+  margin-top: 18px;
+  margin-bottom: 200px;
+}
+
+.about-section hr {
+  width: 327px;
+  margin-bottom: 80px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skills-section > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-section ul {
+  width: 100%;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.language::before {
+  content: '\25C6';
+  color: #ff6b00;
+  padding-right: 10px;
+  font-size: 35px;
+  justify-content: baseline;
+}
+
+.frameworks::before {
+  content: '\25A0';
+  color: #ff6b00;
+  padding-right: 10px;
+  font-size: 35px;
+  justify-content: baseline;
+}
+
+.skills::before {
+  content: '\25CF';
+  color: #ff6b00;
+  padding-right: 10px;
+  font-size: 35px;
+  justify-content: baseline;
 }
