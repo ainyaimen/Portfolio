@@ -39,18 +39,25 @@
         <img class="logo" src="images/Logo Placeholder.png" alt="my logo">
         <img class="menu" src="images/Icon - Menu.png" alt="Menu">
 
+        <nav class="desktop-nav">
+            <a href="index.html">Portfolio</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href=""><img src="images/mail.png" alt="Email"></a>
+        </nav>
+
     </header>
 
     <main class="main-section">
 
-
+    <section class="introduction">
         <h1 class="primary-text">Hey There. I’m Aimen.</h1>
         <h2 class="supporting-text">I'm a Software Developer</h2>
         <p class="description">I can help you build a product , feature or website. Look through some of my work and
             experience! If you like what you see and have a project you need coded,
             don’t hesitate to contact me.</p>
 
-
+        </section>
 
         <nav class="icons">
             <img class="github" src="images/Icon - Github.png" alt="GitHub">
@@ -60,18 +67,22 @@
             <img class="medium" src="images/Icon - Medium.png" alt="medium">
 
         </nav>
-
+    
+        <img class= "illustration" src="images/Illustration-header.png" alt="an illustration">
     </main>
 
     <section class="works-section">
 
+        <section class="works-heading">
         <h2>My Recent Works</h2>
         <hr>
+    </section>
         <section class="cards">
 
             <article class=" card1">
                 <img src="images/Card1.png" alt="first card image">
 
+                <section class="work-detail">
                 <h3 class="work-title">Multi-Post Stories</h3>
                 <p class="work-description">A daily selection of privately personalized reads; no accounts or sign-ups
                     required.
@@ -86,6 +97,8 @@
                 </ul>
 
                 <button class="button">See Project</button>
+
+            </section>
             </article>
 
             <article id="card2" class="card2-onward">
@@ -189,13 +202,17 @@
 
 
     <section class="about-section">
+
+        <section class="about-details">
         <h2 class="about-text">About me</h2>
         <p class="description">Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If you like what you see
             and have a project you need coded, don’t hesitate to contact me.</p>
 
         <button class="button">Get my resume</button>
+    </section>
 
+    <img class= "illustration2" src="images/Frame.png" alt="an illustration">
         <hr>
 
         <section class="skills-section">
@@ -237,12 +254,13 @@
     <section class="contact-form">
         <p class="contact-form-text">I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.</p>
-        <form action="" method="get">
+        <form class= "form-entry" action="" method="get">
             <input type="text" required name="full_name" id="full_name" maxlength="30" placeholder="Full name">
             <input type="text" required name="email" id="email" placeholder="Email address">
             <textarea name="message" id="message" maxlength="500"> write me something...</textarea>
-        </form>
+        
         <button class="button">Get in touch</button>
+    </form>
     </section>
 
     <footer class="footer">
