@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,12 +38,22 @@
     <header class="header">
 
         <img class="logo" src="images/Logo Placeholder.png" alt="my logo">
-        <img class="menu" src="images/Icon - Menu.png" alt="Menu">
+        <img class="menu" src="images/Icon - Menu.png" alt="Menu" id="menu-icon">
+
+
+        <section class="mobile-menu-overlay" id="mobile-menu">
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+              </ul>
+        </section>
+        </section>
 
         <nav class="desktop-nav">
             <a href="index.html">Portfolio</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+            <a href="#About">About</a>
+            <a href="#contact-form">Contact</a>
             <a href=""><img src="images/mail.png" alt="Email"></a>
         </nav>
 
@@ -201,7 +212,7 @@
     </section>
 
 
-    <section class="about-section">
+    <section class="about-section" id="about">
 
         <section class="about-details">
         <h2 class="about-text">About me</h2>
@@ -251,7 +262,7 @@
     </section>
 
 
-    <section class="contact-form">
+    <section class="contact-form" id="contact-form">
         <p class="contact-form-text">I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.</p>
         <form class= "form-entry" action="" method="get">
